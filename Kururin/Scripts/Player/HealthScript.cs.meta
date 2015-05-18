@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: dc422c5b7b6a3ff45b4b1ecc7e549b85
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - healthIcon: {fileID: 2800000, guid: 70de6a9460bd0a740b13c44b2428cd28, type: 3}
+  - nohealthIcon: {fileID: 2800000, guid: ce39cdddded52af488d8fa14a08eecea, type: 3}
+  - playerscript: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

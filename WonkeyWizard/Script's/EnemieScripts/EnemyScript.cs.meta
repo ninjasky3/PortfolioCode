@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 79a72d139bde37a408a40a5c556641bd
+timeCreated: 1429535925
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - explosion: {instanceID: 0}
+  - shootExplosion: {instanceID: 0}
+  - bullet_tank: {instanceID: 0}
+  - soldier: {instanceID: 0}
+  - scoreUpText: {fileID: 10294342, guid: 2fae216b0ce85664c9967d87c2007500, type: 2}
+  - raypos: {instanceID: 0}
+  - enemyHpBar: {fileID: 11493384, guid: 58018dacb72163b4bb4fbee0b3c7bd9a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

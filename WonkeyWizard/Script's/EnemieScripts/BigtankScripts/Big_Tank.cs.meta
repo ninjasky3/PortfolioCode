@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 617e4f4910029ce469bd11a9f39e419f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - explosion: {fileID: 135004, guid: ab2d05f3dbbfa8b4e8509e9c69a29641, type: 2}
+  - shootExplosion: {instanceID: 0}
+  - bullet_tank: {instanceID: 0}
+  - bullet_plane: {instanceID: 0}
+  - soldier: {instanceID: 0}
+  - scoreUpText: {fileID: 10294342, guid: 2fae216b0ce85664c9967d87c2007500, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
