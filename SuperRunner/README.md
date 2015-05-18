@@ -1,2 +1,42 @@
-# PortfolioCode
-In these folders are the code from the games on my portfolio
+# PortfolioCode SuperRunner
+Code Snippets for the SuperRunner
+
+this is a script that handles moving an object from point to point all you
+have to do is make a transform and add in the inspector and it will move
+
+using UnityEngine;
+using System.Collections;
+ 
+public class ObjectMoveArray : MonoBehaviour {
+ 
+        public GameObject player;
+        public Transform[] points;
+                public bool[] Moving;
+        public int MaxPoints;
+        public int num ;
+        private float Speed = 0.05f;
+ 
+        void Start (){
+ 
+                Moving [0] = true;
+                }
+        void FixedUpdate () {
+ 
+                                if (num == MaxPoints) {
+                                                num = 0;
+                                                Moving [0] = true;
+                                }
+                                if (transform.position == points [num].position) {
+                                                Moving [num] = false;
+                                                num = (num  == 1 ? 0 : num + 1);
+                                                Moving [num] = true;
+                                }
+ 
+               
+                                //move platform to point A or B
+                                if (Moving [num]) {
+                                                transform.position = Vector3.MoveTowards (transform.position, points [num].position, Speed);
+                                }
+                       
+                }
+}
